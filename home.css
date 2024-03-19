@@ -26,8 +26,7 @@ nav {
 }
 
 nav a {
-    display: block;
-    color: black;
+    color: #072E37;
     text-align: center;
     text-decoration: none;
     font-size: 30px;
@@ -41,11 +40,25 @@ a {
 
 }
 
-nav img{
+nav img {
     width: 170px;
     height: 100px;
 }
 
+#grop{
+    width: 600px;
+}
+
+#grop #sala{
+    width: 90px;
+    height: 90px;
+    margin-top: 10px;
+}
+#grop #user{
+    width: 100px;
+    height: 80px;
+    margin-bottom: 11px;
+}
 
 #front-back-color {
     display: flex;
@@ -99,79 +112,100 @@ h1 {
     font-weight: bold;
 }
 
+main {
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 
-/* #card1{
-    border: solid 1px black;
-    display: inline-block;
-    justify-content:center ;
-    align-items: center;
-    width: 430px;
-    height: 715px;
-    border-radius: 20px;
-    margin-left:25vh;
-    box-shadow: -15px 12px 16px 2px rgba(0,0,0,0.24);
--webkit-box-shadow: -15px 12px 16px 2px rgba(0,0,0,0.24);
--moz-box-shadow: -15px 12px 16px 2px rgba(0,0,0,0.24);
-}
-#card2{
-    border: solid 1px black;
-    display: inline-block;
-    justify-content:center ;
-    align-items: center;
-    width: 430px;
-    height: 715px;
-    border-radius: 20px;
-    margin-left:25vh;
-    box-shadow: -15px 12px 16px 2px rgba(0,0,0,0.24);
--webkit-box-shadow: -15px 12px 16px 2px rgba(0,0,0,0.24);
--moz-box-shadow: -15px 12px 16px 2px rgba(0,0,0,0.24);
-}
-#card3{
-    border: solid 1px black;
-    display: inline-block;
-    justify-content:center ;
-    align-items: center;
-    width: 430px;
-    height: 715px;
-    border-radius: 20px;
-    margin-left:25vh;
-    box-shadow: -15px 12px 16px 2px rgba(0,0,0,0.24);
--webkit-box-shadow: -15px 12px 16px 2px rgba(0,0,0,0.24);
--moz-box-shadow: -15px 12px 16px 2px rgba(0,0,0,0.24);
 }
 
-#card1 img{
-    width: 309.71px ;
-    height:266.37px ;
-    margin-left: 80px;
-    margin: 10px;
+#card1 {
+    border: solid 1px black;
+    width: 430px;
+    height: 715px;
+    border-radius: 20px;
+    margin-left: 0vh;
+    box-shadow: -15px 12px 16px 2px rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: -15px 12px 16px 2px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: -15px 12px 16px 2px rgba(0, 0, 0, 0.24);
 }
-#card2 img{
+
+#card2 {
+    border: solid 1px black;
+    width: 430px;
+    height: 715px;
+    border-radius: 20px;
+    margin-left: 17vh;
+    box-shadow: -15px 12px 16px 2px rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: -15px 12px 16px 2px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: -15px 12px 16px 2px rgba(0, 0, 0, 0.24);
+}
+
+#card3 {
+    border: solid 1px black;
+    width: 430px;
+    height: 715px;
+    border-radius: 20px;
+    margin-left: 17vh;
+    box-shadow: -15px 12px 16px 2px rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: -15px 12px 16px 2px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: -15px 12px 16px 2px rgba(0, 0, 0, 0.24);
+}
+
+#card1 img {
+    width: 309.71px;
+    height: 266.37px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+#card2 img {
     width: 283.5px;
     height: 142.43px;
     margin-left: 80px;
-    margin: 10px;
-
+    margin-top: 80px;
 }
-#card3 img{
+
+#card3 img {
+
     width: 277.21px;
     height: 254.97px;
     margin-left: 80px;
-    margin: 10px;
+    margin-top: 30px;
 }
 
-p{
+#card1 p {
+    margin-top: 16.6vh;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
 
-} */
+}
 
-#the-card{
+#card2 p {
+    margin-top: 23vh;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+#card3 p {
+    margin-top: 18vh;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+
+#the-card {
     margin-left: 15vh;
     width: 170vh;
     height: 80vh;
 }
+
 #front-back-color2 {
     display: flex;
     justify-content: center;
@@ -182,8 +216,8 @@ p{
 
 #front-back-color2 img {
     height: auto;
-    height: 530px;
-    padding-left: 85px;
+    height: 600px;
+    padding-left: 75px;
 
 }
 
@@ -217,3 +251,14 @@ p{
     font-weight: 650;
 
 }
+
+#hero-box2 #heroHeading2 {
+    color: #072E37;
+    font-size: 90px;
+    text-align: right;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+
