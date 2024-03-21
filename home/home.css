@@ -355,3 +355,12 @@ footer {
     font-weight: 900;
 }
 
+
+
+
+.imgk {
+display: inline-block;
+justify-content: center;
+align-items: center;
+margin-left: 490px;
+}
