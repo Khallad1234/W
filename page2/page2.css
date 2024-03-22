@@ -176,7 +176,7 @@ nav img {
 }
 
 #hero-box #hero-heading {
-    color: #2db473;
+    color: #072E37;
     font-size: 60px;
     text-align: right;
     text-transform: capitalize;
@@ -186,7 +186,7 @@ nav img {
 
 #hero-box #hero-desc {
     word-spacing: 1px;
-    color: #3E366C;
+    color: #072E37;
     line-height: 40px;
     font-size: 25px;
     margin-bottom: 45px;
@@ -198,7 +198,8 @@ h1 {
     text-align: center;
     margin: 2%;
     font-size: 80px;
-    color: #2db473;
+    color: #072E37;
+    font-weight: bold;
 }
 
 #front-back-color2 {
@@ -206,14 +207,13 @@ h1 {
     justify-content: center;
     align-items: center;
     height: 70vh;
-    background-color: #BEE9E8;
+    background-color: #ffff;
 }
 
 #front-back-color2 img {
-    height: auto;
-    height: 530px;
+    height: 830px;
     padding-left: 85px;
-
+    margin-bottom: 60px;
 }
 
 #main2 {
