@@ -1,155 +1,171 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-    font-family: 'Noto Sans Arabic', sans-serif;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Noto Sans Arabic', sans-serif;
+  box-sizing: border-box;
 
 }
 
-body{
-    background-color: white;
+body {
+  background-color: white;
 }
 
 nav {
-    background-color: #ffff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 100px;
-    padding-right: 90px;
+  background-color: #ffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 90px;
 }
 
 nav a {
-    color: #072E37;
-    text-align: center;
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: 550;
+  color: #072E37;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 550;
 }
 
 a {
 
-    text-decoration: none;
-    margin: 20px;
+  text-decoration: none;
+  margin: 20px;
 
 }
 
 nav img {
-    width: 170px;
-    height: 100px;
+  width: 170px;
+  height: 100px;
 }
 
 #grop {
-    width: 600px;
+  width: 600px;
 }
 
 #grop #sala {
-    width: 90px;
-    height: 90px;
-    margin-top: 10px;
+  width: 90px;
+  height: 90px;
+  margin-top: 10px;
 }
 
 #grop #user {
-    width: 100px;
-    height: 80px;
-    margin-bottom: 11px;
+  width: 100px;
+  height: 80px;
+  margin-bottom: 11px;
 }
-#front-back-color{
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    height: 70vh;
+
+#front-back-color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
 }
 
 .contact {
-    padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
-    margin-top: 55px;
-    margin-right: 270px;
-    padding-bottom: 15%;
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  margin-top: 55px;
+  margin-right: 270px;
+  padding-bottom: 15%;
 
-  }
+}
+
+.contact .content {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+@media (max-width: 767px) {
   .contact .content {
-    display: flex;
-    justify-content: space-between;
-    
+    flex-direction: column;
   }
-  @media (max-width: 767px) {
-    .contact .content {
-      flex-direction: column;
-    }
-  }
-  .contact .content form {
-    flex-basis: 70%;
-  }
-  .contact .content form .main-input {
-    padding: 25px;
-    display: block;
-    border: 1.5px solid #4e4773;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    width: 100%;
-    
-  }
-  .contact .content form .main-input:focus {
-    outline: none;
-  }
-  .contact .content form textarea.main-input {
-    height: 200px;
-  }
-  .contact .content form input[type="submit"] {
-    background-color: var(--main-color);
-    color: white;
-    padding: 20px;
-    border: none;
-    display: flex;
-    margin-left: auto;
-    text-transform: uppercase;
-    cursor: pointer;
-  }
-  .contact .content .info {
-    flex-basis: 25%;
-  }
-  @media (max-width: 767px) {
-    .contact .content .info {
-      order: -1;
-      text-align: center;
-    }
-  }
-  .contact .content .info h4 {
-    text-transform: uppercase;
-    margin-bottom: 30px;
-    font-weight: 1000;
-    font-size:35px;
-  }
-  .contact .content .info .phone {
-    display: block;
-    color: #777;
-    margin-bottom: 10px;
-  }
-  .contact .content .info h4:nth-of-type(2) {
-    margin-top: 90px;
-  }
-  @media (max-width: 767px) {
-    .contact .content .info h4:nth-of-type(2) {
-      margin-top: 30px;
-    }
-  }
-  .contact .content .info address {
-    color: #777;
-    line-height: 2;
-  }
-  @media (max-width: 767px) {
-    .contact .content .info address {
-      margin-bottom: 55px;
-    }
-  }
+}
 
-.main-heading h2{
-    color: #072E37;
+.contact .content form {
+  flex-basis: 70%;
+}
+
+.contact .content form .main-input {
+  padding: 25px;
+  display: block;
+  border: 1.5px solid #4e4773;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  width: 100%;
+
+}
+
+.contact .content form .main-input:focus {
+  outline: none;
+}
+
+.contact .content form textarea.main-input {
+  height: 200px;
+}
+
+.contact .content form input[type="submit"] {
+  background-color: var(--main-color);
+  color: white;
+  padding: 20px;
+  border: none;
+  display: flex;
+  margin-left: auto;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.contact .content .info {
+  flex-basis: 25%;
+}
+
+@media (max-width: 767px) {
+  .contact .content .info {
+    order: -1;
+    text-align: center;
+  }
+}
+
+.contact .content .info h4 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: 1000;
+  font-size: 35px;
+}
+
+.contact .content .info .phone {
+  display: block;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.contact .content .info h4:nth-of-type(2) {
+  margin-top: 90px;
+}
+
+@media (max-width: 767px) {
+  .contact .content .info h4:nth-of-type(2) {
+    margin-top: 30px;
+  }
+}
+
+.contact .content .info address {
+  color: #777;
+  line-height: 2;
+}
+
+@media (max-width: 767px) {
+  .contact .content .info address {
+    margin-bottom: 55px;
+  }
+}
+
+.main-heading h2 {
+  color: #072E37;
   margin-bottom: 20px;
   font-size: 30px;
   font-weight: 700px;
@@ -157,26 +173,26 @@ nav img {
 
 }
 
-#button12{
-    border:1.5px solid #47BFAF ;
-    background-color: transparent ;
-    padding:8px;
-    width: 200px;
-    text-align: center;
-    border-radius: 20px;
-    cursor: pointer;
-    color: #072E37;
-    font-size: 25px;
-    word-spacing: 2px;
-    font-family: 'Noto Naskh Arabic';
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    transition: 0.4s;
+#button12 {
+  border: 1.5px solid #47BFAF;
+  background-color: transparent;
+  padding: 8px;
+  width: 200px;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #072E37;
+  font-size: 25px;
+  word-spacing: 2px;
+  font-family: 'Noto Naskh Arabic';
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  transition: 0.4s;
 }
 
-#button12:hover{
-    background-color: #47BFAF;
-    color: white;
-    transition: 0.4s;
+#button12:hover {
+  background-color: #47BFAF;
+  color: white;
+  transition: 0.4s;
 }
 
 footer {

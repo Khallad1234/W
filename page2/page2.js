@@ -1,16 +1,16 @@
 window.addEventListener("load", function () {
 
-    let main=document.getElementById("main")
-    let heroBox=document.getElementById("hero-box");
+    let main = document.getElementById("main")
+    let heroBox = document.getElementById("hero-box");
 
     let heroHeading = document.createElement("h1");
     let heroDesc = document.createElement("p");
 
-    heroHeading.innerHTML= " معاً نحو التطوع";
-    heroHeading.id="hero-heading"
+    heroHeading.innerHTML = " معاً نحو التطوع";
+    heroHeading.id = "hero-heading"
 
-    heroDesc.innerHTML= "العمل التطوعي جزء من رؤية 2030 انضم اليوم وكن جزءاً  من رؤية 2030  وانضم إلى برنامج وصلة للأستفاد من الدورات البرمجية والتصنيعية ، كما تتيح لك ايضاً توثيق ساعاتك وإصدار شهاداتك التطوعية ."
-    heroDesc.id= "hero-desc";
+    heroDesc.innerHTML = "العمل التطوعي جزء من رؤية 2030 انضم اليوم وكن جزءاً  من رؤية 2030  وانضم إلى برنامج وصلة للأستفاد من الدورات البرمجية والتصنيعية ، كما تتيح لك ايضاً توثيق ساعاتك وإصدار شهاداتك التطوعية ."
+    heroDesc.id = "hero-desc";
 
     main.appendChild(heroBox);
     heroBox.appendChild(heroHeading);
